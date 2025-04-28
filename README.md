@@ -1,1 +1,7 @@
-12344058972397hfdigh89823y398yhfyhdf2384yy
+git init
+git add .
+git commit -m 
+git remote add origin
+git push
+
+# git
