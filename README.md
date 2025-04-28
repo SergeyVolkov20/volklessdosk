@@ -3,11 +3,11 @@
     3  git init - создаем репозиторий
     4  git status - содержимое
     5  git remote add origin git@github.com:SergeyVolkov20/volklessdosk.git - подключение к удаленному репозиторию
-    6  git branch -M main - создание веткb
+    6  git branch -M main - создание ветки
     7  git push -u origin main
     8  git remote -v
-   10  touch README.md
-   11  explorer .
+   10  touch README.md - создание текстового файла
+   11  explorer . - открытие этого файла в проводнике
    13  git add .
    15  git commit -m "random file"
    29  git push -u origin main
@@ -16,8 +16,8 @@
    32  eval "$(ssh-agent -s)"
    33  ssh-add ~/.ssh/id_rsa
    34  cat ~/.ssh/id_rsa.pub
-   35  ssh -T git@github.com
+   35  ssh -T git@github.com - проверка подключения к гитхабу
    36  git push -u origin main
-   37  history
+   37  history - история команд
 
 # git
